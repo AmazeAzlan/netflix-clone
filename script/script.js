@@ -14,7 +14,7 @@ faqBoxes.forEach(faqBox => {
     } else {
       icon.classList.add('faq-icon-active');
       answer.style.maxHeight = (answer.scrollHeight + 10) + 'rem';
-      answer.style.padding = '1.9rem';
+      answer.style.padding = '1rem 1.4rem';
     }
   });
 });
